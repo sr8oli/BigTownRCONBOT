@@ -24,7 +24,7 @@ danny.on('ready', () => {
     console.log("RCON_BOT_ONLINE");
 
     rconClient = new net.Socket();
-    rconClient.connect(9100, '35.238.223.117', () => {
+    rconClient.connect(PORT, 'IP_ADDRESS', () => {
         console.log("Connected to RCON server");
         rconClient.write('<md5sum_passhere>\n'); // Make sure this is the correct password format
     });
