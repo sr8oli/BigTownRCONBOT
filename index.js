@@ -52,4 +52,4 @@ danny.on('messageCreate', (msg) => {
     }
 });
 
-danny.login('MTMyMTY2ODcxMTE0ODQyMTIzMg.G3eg1t.jep1uPC1ifXLCIV1nGWgXzpPm-9SSD27eNyiKI');
+danny.login('TOKEN');
